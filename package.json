@@ -1,0 +1,31 @@
+{
+    "name": "theme-panictheme",
+    "displayName": "Panic Theme",
+    "description": "A theme based on the hyperpanic color scheme https://www.npmjs.com/package/hyperpanic",
+    "homepage": "https://github.com/fdidron/panic-vstheme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fdidron/panic-vstheme.git"
+    },
+    "version": "0.0.1",
+    "publisher": "fdidron",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Panic Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/panic.tmTheme"
+            }
+        ]
+    },
+    "galleryBanner": {
+        "color": "#152638",
+        "theme": "dark"
+    }
+}
